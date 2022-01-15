@@ -63,15 +63,15 @@ const
 #endif // XRESOURCES_PATCH
 char *colors[][2] = {
 	/*               fg         bg       */
-	[SchemeNorm] = { "#eeffff", "#292d3e" },
-	[SchemeSel]  = { "#eeffff", "#4e5579" },
+	[SchemeNorm] = { "#f2f5fa", "#292e38" },
+	[SchemeSel]  = { "#f2f5fa", "#434c5e" },
 	[SchemeOut]  = { "#000000", "#00ffff" },
 	#if MORECOLOR_PATCH
 	[SchemeMid]  = { "#eeeeee", "#770000" },
 	#endif // MORECOLOR_PATCH
 	#if HIGHLIGHT_PATCH || FUZZYHIGHLIGHT_PATCH
-	[SchemeSelHighlight]  = { "#c792ea", "#4e5579" },
-	[SchemeNormHighlight] = { "#c792ea", "#292d3e" },
+	[SchemeSelHighlight]  = { "#88c0d0", "#434c5e" },
+	[SchemeNormHighlight] = { "#88c0d0", "#292e38" },
 	#endif // HIGHLIGHT_PATCH | FUZZYHIGHLIGHT_PATCH
 	#if HIGHPRIORITY_PATCH
 	[SchemeHp]   = { "#bbbbbb", "#333333" },
